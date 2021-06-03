@@ -12,7 +12,7 @@ pipeline {
                         label "Agent1_1"
                     }
                     steps {
-                        git url: 'httphttps://github.com/rvndrupal/Sipvi_cypress_ok.git'
+                        git url: 'https://github.com/rvndrupal/Sipvi_cypress_ok.git'
                         bat 'npm install'
                         bat 'npm update'                       
                         bat 'npx cypress run cypress run --record --key 3313dcb4-bec7-4652-8872-3d77817d4099  --parallel'
@@ -25,14 +25,14 @@ pipeline {
                         label "Agent1_2"
                     }
                     steps {
-                        git url: 'httphttps://github.com/rvndrupal/Sipvi_cypress_ok.git'
+                        git url: 'https://github.com/rvndrupal/Sipvi_cypress_ok.git'
                         bat 'npm install'
                         bat 'npm update'  
                         bat 'npx cypress run cypress run --record --key 3313dcb4-bec7-4652-8872-3d77817d4099  --parallel'
                                               
                     }
                 }
-                 /*
+                 
                 
 
                 stage('Slave 3') {
@@ -40,7 +40,7 @@ pipeline {
                         label "Agent1_3"
                     }
                     steps {
-                        git url: 'httphttps://github.com/rvndrupal/Sipvi_cypress_ok.git'
+                        git url: 'https://github.com/rvndrupal/Sipvi_cypress_ok.git'
                         bat 'npm install'
                         bat 'npm update'  
                         bat 'npx cypress run cypress run --record --key 3313dcb4-bec7-4652-8872-3d77817d4099  --parallel'
@@ -62,7 +62,7 @@ pipeline {
                     }
                 }
 
-                
+                /*
           
 
                 
