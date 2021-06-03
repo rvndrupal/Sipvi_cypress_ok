@@ -11,8 +11,8 @@ import 'cypress-file-upload'
 describe('Sipvi segunda Fase', () =>{ 
 
     const master= new test_PO()
-    let numero_pruebas=2
-    let tiempo_general=100
+    let numero_pruebas=1
+    let tiempo_general=1000
     
 
 
