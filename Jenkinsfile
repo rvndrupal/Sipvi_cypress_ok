@@ -62,7 +62,7 @@ pipeline {
                     }
                 }
 
-                /*
+                
           
 
                 
@@ -72,13 +72,15 @@ pipeline {
                         label "Agent1_5"
                     }
                     steps {
-                        git url: 'https://github.com/rvndrupal/Sinalap_cypress.git'
+                        git url: 'https://github.com/rvndrupal/Sipvi_cypress_ok.git'
                         bat 'npm install'
                         bat 'npm update'  
                         bat 'npx cypress run cypress run --record --key 3313dcb4-bec7-4652-8872-3d77817d4099  --parallel'
                                               
                     }
                 }
+
+                /*
 
                 
 
