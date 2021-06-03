@@ -19,24 +19,7 @@ describe('Sipvi segunda Fase', () =>{
     //master.visitHome(500)
     
    
-    it.only('Sipvi Agricola Positivo', () =>{
-        Cypress.config('defaultCommandTimeout', 25000)
-        master.Master_Agricola(tiempo_general,numero_pruebas)
-        
-    })
-
-    it('Sipvi Pecuario Positivo', () =>{
-        Cypress.config('defaultCommandTimeout', 25000)
-        master.Master_Pecuario(tiempo_general,numero_pruebas)
-        
-    })
-
-    it('Sipvi Comercial Positivo', () =>{
-        Cypress.config('defaultCommandTimeout', 25000)
-        master.Master_Comercial(tiempo_general,numero_pruebas)
-        
-    })
-
+   
     it('Sipvi Agricola Negativo', () =>{
         Cypress.config('defaultCommandTimeout', 25000)
         master.Master_Agricola_Negativo(tiempo_general,numero_pruebas)
