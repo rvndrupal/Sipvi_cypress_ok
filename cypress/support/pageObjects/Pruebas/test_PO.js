@@ -386,7 +386,7 @@ class test_PO{
             let gm_Arr = ["Grupo de mercancía 2","Grupo de mercancía 4"];
             let Random_gm = gm_Arr[Math.floor(Math.random()*gm_Arr.length)]; 
             cy.get('#selGrupoMercancia').select(Random_gm)
-            cy.wait(1000)
+            cy.wait(1500)
                 if(Random_gm=="Grupo de mercancía 2"){
                     let mer_Arr = ["Mercancía 10","Mercancía 12","Mercancía 14"];
                     let Random_mer = mer_Arr[Math.floor(Math.random()*mer_Arr.length)]; 
@@ -423,15 +423,18 @@ class test_PO{
 
                 else if(Random_gm=="Grupo de mercancía 4"){                   
                     //Producto
-                    let producto_Arr = ["Motivo de movilizació 11","Motivo de movilizació 5","Motivo de movilizació 8"];
+                    let producto_Arr = ["prueba de motivo movilizaciónn","Motivo de movilizació 5"];
                     let Random_producto = producto_Arr[Math.floor(Math.random()*producto_Arr.length)]; 
                     cy.get('#selMotivoProducto').select(Random_producto)
                     cy.wait(1000)
+                    cy.log("SIN MOTIVO ANIMAL")
                 }
             
             //Agregar
             cy.xpath("//button[@class='btn btn-primary size'][contains(.,'Agregar')]").should('be.visible').click({force: true})
             cy.wait(tiempo)
+
+            
 
                             
 
