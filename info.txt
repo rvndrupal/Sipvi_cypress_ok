@@ -1,5 +1,8 @@
-id=n176nz
-Key=3313dcb4-bec7-4652-8872-3d77817d4099
+id=2rxw9i
+Key=556e334e-5963-4522-9a24-843123893567
+
+Cuenta gmail -> rodrigocypress1@gmail.com
+password -> M siempre ++
 
 Bienvenidos al curso de Cypress.
 

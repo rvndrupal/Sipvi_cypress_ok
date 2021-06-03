@@ -15,7 +15,7 @@ pipeline {
                         git url: 'https://github.com/rvndrupal/Sipvi_cypress_ok.git'
                         bat 'npm install'
                         bat 'npm update'                       
-                        bat 'npx cypress run cypress run --record --key 3313dcb4-bec7-4652-8872-3d77817d4099  --parallel'
+                        bat 'npx cypress run cypress run --record --key 556e334e-5963-4522-9a24-843123893567  --parallel'
                     
                     }
                 }
@@ -28,7 +28,7 @@ pipeline {
                         git url: 'https://github.com/rvndrupal/Sipvi_cypress_ok.git'
                         bat 'npm install'
                         bat 'npm update'  
-                        bat 'npx cypress run cypress run --record --key 3313dcb4-bec7-4652-8872-3d77817d4099  --parallel'
+                        bat 'npx cypress run cypress run --record --key 556e334e-5963-4522-9a24-843123893567  --parallel'
                                               
                     }
                 }
@@ -43,7 +43,7 @@ pipeline {
                         git url: 'https://github.com/rvndrupal/Sipvi_cypress_ok.git'
                         bat 'npm install'
                         bat 'npm update'  
-                        bat 'npx cypress run cypress run --record --key 3313dcb4-bec7-4652-8872-3d77817d4099  --parallel'
+                        bat 'npx cypress run cypress run --record --key 556e334e-5963-4522-9a24-843123893567  --parallel'
                                               
                     }
                 }
@@ -57,7 +57,7 @@ pipeline {
                         git url: 'https://github.com/rvndrupal/Sipvi_cypress_ok.git'
                         bat 'npm install'
                         bat 'npm update'  
-                        bat 'npx cypress run cypress run --record --key 3313dcb4-bec7-4652-8872-3d77817d4099  --parallel'
+                        bat 'npx cypress run cypress run --record --key 556e334e-5963-4522-9a24-843123893567  --parallel'
                                               
                     }
                 }
