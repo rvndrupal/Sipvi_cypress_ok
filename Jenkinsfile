@@ -47,6 +47,8 @@ pipeline {
                                               
                     }
                 }
+
+                /*
                 
             
                 stage('Slave 4') {
@@ -63,7 +65,7 @@ pipeline {
                 }
 
                 
-                 /*
+                 
 
                 
 

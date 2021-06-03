@@ -19,12 +19,13 @@ describe('Sipvi segunda Fase', () =>{
     //master.visitHome(500)
     
    
-   
-    it('Sipvi Agricola Negativo', () =>{
+    it('Sipvi Agricola Positivo', () =>{
         Cypress.config('defaultCommandTimeout', 25000)
-        master.Master_Agricola_Negativo(tiempo_general,numero_pruebas)
+        master.Master_Agricola(tiempo_general,numero_pruebas)
         
-    })
+    }) 
+
+  
 
 
     
