@@ -13,7 +13,8 @@ pipeline {
                     }
                     steps {
                         git url: 'https://github.com/rvndrupal/Sipvi_cypress_ok.git'
-                        bat 'npm install'
+                        //bat 'npm install'
+                        bat 'npm install --save-dev cypress'
                         bat 'npm update'                       
                         bat 'npx cypress run cypress run --record --key 556e334e-5963-4522-9a24-843123893567  --parallel'
                     
@@ -26,7 +27,8 @@ pipeline {
                     }
                     steps {
                         git url: 'https://github.com/rvndrupal/Sipvi_cypress_ok.git'
-                        bat 'npm install'
+                        //bat 'npm install'
+                        bat 'npm install --save-dev cypress'
                         bat 'npm update'  
                         bat 'npx cypress run cypress run --record --key 556e334e-5963-4522-9a24-843123893567  --parallel'
                                               
@@ -41,7 +43,8 @@ pipeline {
                     }
                     steps {
                         git url: 'https://github.com/rvndrupal/Sipvi_cypress_ok.git'
-                        bat 'npm install'
+                        //bat 'npm install'
+                        bat 'npm install --save-dev cypress'
                         bat 'npm update'  
                         bat 'npx cypress run cypress run --record --key 556e334e-5963-4522-9a24-843123893567  --parallel'
                                               
