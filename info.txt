@@ -4,6 +4,9 @@ Key=556e334e-5963-4522-9a24-843123893567
 Cuenta gmail -> rodrigocypress1@gmail.com
 password -> M siempre ++
 
+
+Actualizar cypress npm install --force cypress@7.7.0
+
 Bienvenidos al curso de Cypress.
 
 1.-npm  init
